@@ -44,7 +44,7 @@ function calculateTotalPrice(products, promotionCode) {
 
   return `
     สินค้าที่อยู่ในตะกร้า = ${goodsInCart} บาท
-    โค้ดส่วนลด = ${promotionCode} บาท
+    โค้ดส่วนลด = ${promotionCode}
     ราคาก่อนใช้โค้ดส่วนลด = ${sumCartValue} บาท
     ราคาหลังใช้โค้ดส่วนลด = ${totalCartValueDiscount} บาท
     ตะกร้านี้ประหยัดไปได้ = ${discountValue} บาท
